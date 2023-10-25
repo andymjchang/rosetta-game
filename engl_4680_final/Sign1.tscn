@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://dialog_assets/inspect_box.png" type="Texture" id=2]
+[ext_resource path="res://dialog_assets/symbol.tres" type="DynamicFont" id=3]
+[ext_resource path="res://ZButton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://FoxAndDog.gd" type="Script" id=5]
+
+[node name="Sign1" type="Node2D"]
+pause_mode = 2
+scale = Vector2( 1.25, 1.25 )
+script = ExtResource( 5 )
+
+[node name="inspect_box" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 27.0
+margin_top = 49.2
+margin_right = 231.0
+margin_bottom = 168.2
+grow_horizontal = 2
+grow_vertical = 2
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center]welcome to the rosetta laboratory station[center]"
+text = "welcome to the rosetta laboratory station"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 4 )]

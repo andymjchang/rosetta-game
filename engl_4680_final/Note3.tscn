@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://dialog_assets/inspect_box.png" type="Texture" id=2]
+[ext_resource path="res://dialog_assets/symbol.tres" type="DynamicFont" id=3]
+[ext_resource path="res://FoxAndDog.gd" type="Script" id=5]
+
+[node name="Note1" type="Node2D"]
+pause_mode = 2
+position = Vector2( 40, 0 )
+scale = Vector2( 1.25, 1.25 )
+script = ExtResource( 5 )
+
+[node name="inspect_box" type="Sprite" parent="."]
+scale = Vector2( 0.75, 1 )
+texture = ExtResource( 2 )
+centered = false
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 27.0
+margin_top = 26.0
+margin_right = 167.0
+margin_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+custom_fonts/normal_font = ExtResource( 3 )
+text = "eleven
+four
+six
+eight"
+__meta__ = {
+"_edit_use_anchors_": false
+}

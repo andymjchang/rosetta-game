@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://DialogTrigger.gd" type="Script" id=1]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+[node name="DialogTrigger" type="Node2D"]
+position = Vector2( 0, -10 )
+script = ExtResource( 1 )
+dialogPath = ""
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 1 )
+
+[node name="Polygon2D" type="Polygon2D" parent="Area2D"]
+visible = false
+polygon = PoolVector2Array( -10, -10, -10, 10, 10, 10, 10, -10 )
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_Area2D_area_entered"]

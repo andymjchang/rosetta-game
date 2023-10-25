@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/gato_landingsite_theme.mp3-3032cccb5c1982f4a036c717bc8f9f9f.mp3str"
+
+[deps]
+
+source_file="res://sound/gato_landingsite_theme.mp3"
+dest_files=[ "res://.import/gato_landingsite_theme.mp3-3032cccb5c1982f4a036c717bc8f9f9f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

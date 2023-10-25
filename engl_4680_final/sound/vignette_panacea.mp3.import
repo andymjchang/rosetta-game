@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/vignette_panacea.mp3-b54b26f92aa220170221d94ae985f57c.mp3str"
+
+[deps]
+
+source_file="res://sound/vignette_panacea.mp3"
+dest_files=[ "res://.import/vignette_panacea.mp3-b54b26f92aa220170221d94ae985f57c.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0

@@ -1,0 +1,428 @@
+[gd_scene load_steps=62 format=2]
+
+[ext_resource path="res://Password4.tres" type="SpriteFrames" id=1]
+[ext_resource path="res://dialog_assets/inspect_box.png" type="Texture" id=2]
+[ext_resource path="res://dialog_assets/symbol.tres" type="DynamicFont" id=3]
+[ext_resource path="res://ZButton.tscn" type="PackedScene" id=4]
+[ext_resource path="res://FoxAndDog.gd" type="Script" id=5]
+[ext_resource path="res://dialog_assets/planet_terran_dry.png" type="Texture" id=6]
+[ext_resource path="res://dialog_assets/SgaPixies-j81j.ttf" type="DynamicFontData" id=7]
+[ext_resource path="res://RichTextLabel7.gd" type="Script" id=8]
+
+[sub_resource type="DynamicFont" id=1]
+extra_spacing_char = 1
+extra_spacing_space = 5
+font_data = ExtResource( 7 )
+
+[sub_resource type="RectangleShape2D" id=53]
+extents = Vector2( 48, 48 )
+
+[sub_resource type="AtlasTexture" id=2]
+atlas = ExtResource( 6 )
+region = Rect2( 0, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=3]
+atlas = ExtResource( 6 )
+region = Rect2( 100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 6 )
+region = Rect2( 200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=5]
+atlas = ExtResource( 6 )
+region = Rect2( 300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=6]
+atlas = ExtResource( 6 )
+region = Rect2( 400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=7]
+atlas = ExtResource( 6 )
+region = Rect2( 500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=8]
+atlas = ExtResource( 6 )
+region = Rect2( 600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=9]
+atlas = ExtResource( 6 )
+region = Rect2( 700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=10]
+atlas = ExtResource( 6 )
+region = Rect2( 800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=11]
+atlas = ExtResource( 6 )
+region = Rect2( 900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=12]
+atlas = ExtResource( 6 )
+region = Rect2( 1000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=13]
+atlas = ExtResource( 6 )
+region = Rect2( 1100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=14]
+atlas = ExtResource( 6 )
+region = Rect2( 1200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=15]
+atlas = ExtResource( 6 )
+region = Rect2( 1300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=16]
+atlas = ExtResource( 6 )
+region = Rect2( 1400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=17]
+atlas = ExtResource( 6 )
+region = Rect2( 1500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=18]
+atlas = ExtResource( 6 )
+region = Rect2( 1600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=19]
+atlas = ExtResource( 6 )
+region = Rect2( 1700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=20]
+atlas = ExtResource( 6 )
+region = Rect2( 1800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=21]
+atlas = ExtResource( 6 )
+region = Rect2( 1900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=22]
+atlas = ExtResource( 6 )
+region = Rect2( 2000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=23]
+atlas = ExtResource( 6 )
+region = Rect2( 2100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=24]
+atlas = ExtResource( 6 )
+region = Rect2( 2200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=25]
+atlas = ExtResource( 6 )
+region = Rect2( 2300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=26]
+atlas = ExtResource( 6 )
+region = Rect2( 2400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=27]
+atlas = ExtResource( 6 )
+region = Rect2( 2500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=28]
+atlas = ExtResource( 6 )
+region = Rect2( 2600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=29]
+atlas = ExtResource( 6 )
+region = Rect2( 2700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=30]
+atlas = ExtResource( 6 )
+region = Rect2( 2800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=31]
+atlas = ExtResource( 6 )
+region = Rect2( 2900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=32]
+atlas = ExtResource( 6 )
+region = Rect2( 3000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=33]
+atlas = ExtResource( 6 )
+region = Rect2( 3100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=34]
+atlas = ExtResource( 6 )
+region = Rect2( 3200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=35]
+atlas = ExtResource( 6 )
+region = Rect2( 3300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=36]
+atlas = ExtResource( 6 )
+region = Rect2( 3400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=37]
+atlas = ExtResource( 6 )
+region = Rect2( 3500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=38]
+atlas = ExtResource( 6 )
+region = Rect2( 3600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=39]
+atlas = ExtResource( 6 )
+region = Rect2( 3700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=40]
+atlas = ExtResource( 6 )
+region = Rect2( 3800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=41]
+atlas = ExtResource( 6 )
+region = Rect2( 3900, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=42]
+atlas = ExtResource( 6 )
+region = Rect2( 4000, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=43]
+atlas = ExtResource( 6 )
+region = Rect2( 4100, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=44]
+atlas = ExtResource( 6 )
+region = Rect2( 4200, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=45]
+atlas = ExtResource( 6 )
+region = Rect2( 4300, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=46]
+atlas = ExtResource( 6 )
+region = Rect2( 4400, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=47]
+atlas = ExtResource( 6 )
+region = Rect2( 4500, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=48]
+atlas = ExtResource( 6 )
+region = Rect2( 4600, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=49]
+atlas = ExtResource( 6 )
+region = Rect2( 4700, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=50]
+atlas = ExtResource( 6 )
+region = Rect2( 4800, 0, 100, 100 )
+
+[sub_resource type="AtlasTexture" id=51]
+atlas = ExtResource( 6 )
+region = Rect2( 4900, 0, 100, 100 )
+
+[sub_resource type="SpriteFrames" id=52]
+animations = [ {
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ), SubResource( 43 ), SubResource( 44 ), SubResource( 45 ), SubResource( 46 ), SubResource( 47 ), SubResource( 48 ), SubResource( 49 ), SubResource( 50 ), SubResource( 51 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="FoxAndDog" type="Node2D"]
+pause_mode = 2
+scale = Vector2( 1.25, 1.25 )
+script = ExtResource( 5 )
+
+[node name="inspect_box" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+centered = false
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = -19.2
+margin_top = 16.8
+margin_right = 191.8
+margin_bottom = 44.8
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center]Kallavan[center]"
+text = "Kallavan"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel7" type="RichTextLabel" parent="."]
+margin_left = 146.0
+margin_top = 33.0
+margin_right = 236.0
+margin_bottom = 114.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = ExtResource( 3 )
+bbcode_enabled = true
+bbcode_text = "[center][center]"
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_left = 36.8
+margin_top = 50.4
+margin_right = 247.8
+margin_bottom = 78.4
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "Eurydice"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="."]
+margin_left = 38.4
+margin_top = 33.6
+margin_right = 249.4
+margin_bottom = 61.6
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "Iopa"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel4" type="RichTextLabel" parent="."]
+margin_left = 36.0
+margin_top = 65.6
+margin_right = 247.0
+margin_bottom = 93.6
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "Aiba"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel5" type="RichTextLabel" parent="."]
+margin_left = 36.8
+margin_top = 83.2
+margin_right = 247.8
+margin_bottom = 111.2
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "Nai"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel6" type="RichTextLabel" parent="."]
+margin_left = 36.0
+margin_top = 99.2
+margin_right = 247.0
+margin_bottom = 127.2
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+custom_fonts/normal_font = SubResource( 1 )
+text = "titan"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" parent="." instance=ExtResource( 4 )]
+
+[node name="planet2" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 40 )
+scale = Vector2( 0.15, 0.15 )
+frames = ExtResource( 1 )
+frame = 37
+speed_scale = 1.1
+playing = true
+
+[node name="6" type="Area2D" parent="planet2"]
+position = Vector2( 0, 6.10352e-05 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planet2/6"]
+shape = SubResource( 53 )
+
+[node name="planet4" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 56 )
+scale = Vector2( 0.15, 0.15 )
+frames = ExtResource( 1 )
+frame = 35
+speed_scale = 1.1
+playing = true
+
+[node name="5" type="Area2D" parent="planet4"]
+position = Vector2( 0, 0.00012207 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planet4/5"]
+shape = SubResource( 53 )
+
+[node name="planet5" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 72.8 )
+scale = Vector2( 0.15, 0.15 )
+frames = ExtResource( 1 )
+frame = 35
+speed_scale = 1.1
+playing = true
+
+[node name="4" type="Area2D" parent="planet5"]
+position = Vector2( 0, -9.15527e-05 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planet5/4"]
+shape = SubResource( 53 )
+
+[node name="planet6" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 89.6 )
+scale = Vector2( 0.15, 0.15 )
+frames = ExtResource( 1 )
+frame = 34
+speed_scale = 1.1
+playing = true
+
+[node name="3" type="Area2D" parent="planet6"]
+position = Vector2( 0, -0.00012207 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planet6/3"]
+shape = SubResource( 53 )
+
+[node name="planet7" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 105.6 )
+scale = Vector2( 0.15, 0.15 )
+frames = ExtResource( 1 )
+frame = 34
+speed_scale = 1.1
+playing = true
+
+[node name="2" type="Area2D" parent="planet7"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="planet7/2"]
+shape = SubResource( 53 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 26.4, 24 )
+scale = Vector2( 0.15, 0.15 )
+frames = SubResource( 52 )
+frame = 16
+speed_scale = 1.1
+playing = true
+
+[node name="1" type="Area2D" parent="AnimatedSprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite/1"]
+shape = SubResource( 53 )
+
+[connection signal="mouse_entered" from="planet2/6" to="RichTextLabel7" method="_on_6_mouse_entered"]
+[connection signal="mouse_entered" from="planet4/5" to="RichTextLabel7" method="_on_5_mouse_entered"]
+[connection signal="mouse_entered" from="planet5/4" to="RichTextLabel7" method="_on_4_mouse_entered"]
+[connection signal="mouse_entered" from="planet6/3" to="RichTextLabel7" method="_on_3_mouse_entered"]
+[connection signal="mouse_entered" from="planet7/2" to="RichTextLabel7" method="_on_2_mouse_entered"]
+[connection signal="mouse_entered" from="AnimatedSprite/1" to="RichTextLabel7" method="_on_1_mouse_entered"]

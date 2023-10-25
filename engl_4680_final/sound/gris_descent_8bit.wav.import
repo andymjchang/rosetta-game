@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/gris_descent_8bit.wav-1c954ea66ba91622b1595a70d107414c.sample"
+
+[deps]
+
+source_file="res://sound/gris_descent_8bit.wav"
+dest_files=[ "res://.import/gris_descent_8bit.wav-1c954ea66ba91622b1595a70d107414c.sample" ]
+
+[params]
+
+force/8_bit=true
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=true
+compress/mode=0
